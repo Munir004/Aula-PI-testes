@@ -1,5 +1,6 @@
 # Aula-PI-testes
 
 
-OUEVHPFIOJEABFVPIUAHEOFÙ OIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-awoçidfhshf\s,gnagbf AFJADHH,S VF
+Repositório para testar erros e conflitos
+
+# Solucionando com branches
