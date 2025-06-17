@@ -1,5 +1,3 @@
 # Aula-PI-testes
-
-
-OUEVHPFIOJEABFVPIUAHEOFÙ OIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-awoçidfhshf\s,gnagbf AFJADHH,S VF
+# Para testar erros e conflitos
+Utilizando branch
