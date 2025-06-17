@@ -11,12 +11,12 @@
 
 <body onload="onloadEsconder()">
     <div id="pontuacaoEJogo">
-        <button id="btnIniciarQuiz" onclick="iniciarQuiz()">INICIAR QUIZ</button>
+        <button id="btnIniciarQuiz" onclick="iniciarQuiz()">Começar</button>
 
         <div id="pontuacao" class="flex-colunar width-fit-content border-primary">
             <div id="pontuacaoDuranteJogo" class="flex-colunar padding-8">
-                <span class="width-fit-content">Quantidade de acertos: <span id="spanCertas"></span></span>
-                <span class="width-fit-content">Quantidade de erros: <span id="spanErradas"></span></span>
+                <span class="width-fit-content">Número acertos: <span id="spanCertas"></span></span>
+                <span class="width-fit-content">QTD erros: <span id="spanErradas"></span></span>
             </div>
             <div id="pontuacaoFinalJogo" class="flex-colunar padding-8">
                 <span id="pontuacaoFinal" class="width-fit-content">Pontuação Final:
@@ -38,7 +38,7 @@
             </div>
 
             <div id="infoAlternativas" class="padding-8">
-                <span><em>Escolha uma opção dentre as abaixo:</em></span>
+                <span><em>Escolha uma opção:</em></span>
             </div>
 
             <div id="opcoes" class="flex-colunar padding-8">
@@ -62,9 +62,9 @@
 
             <div id="botoes" class="flex-colunar padding-8">
                 <button onclick="submeter()" id="btnSubmeter">Submeter resposta</button>
-                <button onclick="avancar()" id="btnProx" disabled>Avançar para próxima questão</button>
+                <button onclick="avancar()" id="btnProx" disabled>Avançar para próxima </button>
                 <!-- <button onclick="finalizar()" id="btnConcluir" disabled>Finalizar Quiz</button> -->
-                <button onclick="tentarNovamente()" id="btnTentarNovamente" disabled>Tentar novamente</button>
+                <button onclick="tentarNovamente()" id="btnTentarNovamente" disabled>Tentar novamente!</button>
             </div>
 
         </div>
@@ -77,7 +77,7 @@
 
         {
             pergunta: "Qual mês tem 30 dias?",
-            alternativaA: "Janeiro",
+            alternativaA: "Fevereiro",
             alternativaB: "Dezembro",
             alternativaC: "Junho",
             alternativaD: "Agosto",
@@ -86,7 +86,7 @@
 
         {
             pergunta: "Quantas horas tem em um dia?",
-            alternativaA: "30 horas",
+            alternativaA: "34 horas",
             alternativaB: "38 horas",
             alternativaC: "48 horas",
             alternativaD: "24 horas",
@@ -97,9 +97,9 @@
             pergunta: "Qual destes números é ímpar?",
             alternativaA: "Dez",
             alternativaB: "Doze",
-            alternativaC: "Oito",
-            alternativaD: "Onze",
-            alternativaCorreta: "alternativaD"
+            alternativaC: "Onze",
+            alternativaD: "Oito",
+            alternativaCorreta: "alternativaC"
         }
 
     ]
